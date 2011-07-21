@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja_JP" lang="ja_JP">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link href='http://sites.google.com/site/tmtlfavicon/favicon.ico' rel='shortcut icon' type='image/vnd.microsoft.icon'/>
+    <link href='http://sites.google.com/site/tmtlfavicon/favicon.ico' rel='icon' type='image/vnd.microsoft.icon'/>
+    <link href='http://sites.google.com/site/tmtlfavicon/apple-touch-icon.png' rel='apple-touch-icon'/>
+    <title>tmtl.github.com</title>
+    <link type="text/css" rel="stylesheet" href="http://alexgorbatchev.com/pub/sh/current/styles/shCoreEclipse.css"/>
+    <script type="text/javascript" src="http://alexgorbatchev.com/pub/sh/current/scripts/shCore.js"></script>
+    <script type="text/javascript" src="http://alexgorbatchev.com/pub/sh/current/scripts/shBrushPerl.js"></script>
+    <script type="text/javascript">SyntaxHighlighter.all();</script>
+</head>
+
+<body style="background: white; font-family: Helvetica">
+
+<pre class="brush: perl;">
+#!/usr/bin/env perl
+
+use strict;
+use warnings;
+
+my $profile = {
+    name => 'TMTL',
+    host => 'tmtl.info',
+    favorite => 'Perl',
+};
+
+my $site = {
+    bookmark => 'http://b.hatena.ne.jp/TMTL',
+    twitter => 'http://twitter.jp/TMTL',
+};
+
+my $hello = sub {
+    print "Hello, World!!"\n";
+};
+
+$hello->();
+</pre>
+</html>
